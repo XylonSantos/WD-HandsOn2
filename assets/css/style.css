@@ -37,7 +37,7 @@ p {
     margin: 20px 0;
 }
 
-.navigation button {
+.navigation a {
     padding: 15px 30px;
     margin: 10px;
     font-size: 1em;
@@ -45,11 +45,12 @@ p {
     background-color: #102c57;
     border: none;
     border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.navigation button:hover {
+.navigation a:hover {
     background-color: #000000;
 }
-
