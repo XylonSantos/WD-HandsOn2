@@ -64,8 +64,7 @@ Description of the project in details.
 Guiding Question:
 - What is the project -  The project includes an index.html file serving as the landing page and separate directories. It aims to demonstrate various styles of hero sections and cards using HTML and CSS. Contains a title, project description, and navigation links to Hero Gallery and Card Gallery. Showcases five hero sections with different designs. Features ten cards each with unique content and styling.
 - Whats the purpose - Demonstrates different design styles and techniques achievable with HTML and CSS.
-- What are key components - : Organized with <div> containers for sections and specific elements for content (e.g., <h1>, <p>, <img>). Applied to create visually appealing designs, including backgrounds, colors, fonts, borders, shadows, and animations (@keyframes for hero sections and cards). Utilizes @media queries to ensure responsiveness across different devices (initial-scale meta tag in <head> for viewport adjustment).
-- What technology used and how it is used
+- What are key components - It includes a landing page with navigation to "Hero Gallery" and "Card Gallery" sections. Key components include styled <div> elements for hero sections and cards (card1 to card10), each uniquely designed with CSS for layout, typography, colors, and responsiveness. Navigation is enhanced with styled buttons, and interactions are enriched with CSS animations (@keyframes). 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
