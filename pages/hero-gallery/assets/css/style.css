@@ -23,7 +23,7 @@ body {
     font-size: 1rem;
 }
 
-/* Hero 1 - Animations */
+
 .hero1 {
     background: linear-gradient(45deg, #ff6f61, #d8d8d8);
     animation: fadeIn 1.5s ease-in-out;
@@ -43,7 +43,7 @@ body {
     animation: fadeInUp 1.5s ease-in-out;
 }
 
-/* Hero 2 - Animations and Background Animation */
+
 .hero2 {
     background: linear-gradient(135deg, #1e90ff, #ff6347);
     background-size: 200% 200%;
@@ -64,7 +64,7 @@ body {
     animation: fadeInUp 2.5s ease-in-out;
 }
 
-/* Hero 3 */
+
 .hero3 {
     background-color: #4caf50;
 }
@@ -89,7 +89,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Hero 4 - Animations and Hover Effects */
+
 .hero4 {
     position: relative;
     background-color: #2196f3;
@@ -139,7 +139,7 @@ body {
     opacity: 0.9;
 }
 
-/* Hero 5 - Animations and Hover Effects */
+
 .hero5 {
     position: relative;
     background: linear-gradient(60deg, #8e44ad, #3498db);
@@ -191,7 +191,7 @@ body {
     opacity: 0.95;
 }
 
-/* Keyframes for Animations */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
