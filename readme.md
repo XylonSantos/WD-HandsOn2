@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+     <img src="assets/img/Logo.jpg" alt="Logo" width="230" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-HandsOn2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This is the Hands on 2 of Xylon Nicholas N. Santos - TW04
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=XylonSantos/WD-HandsOn2)
 
 ---
 
@@ -59,24 +59,25 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
+- The project consists of a multi-page HTML project with a focus on showcasing different hero sections and card styles using HTML and CSS.
+
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
+- What is the project -  The project includes an index.html file serving as the landing page and separate directories. It aims to demonstrate various styles of hero sections and cards using HTML and CSS. Contains a title, project description, and navigation links to Hero Gallery and Card Gallery. Showcases five hero sections with different designs. Features ten cards each with unique content and styling.
+- Whats the purpose - Demonstrates different design styles and techniques achievable with HTML and CSS.
+- What are key components - : Organized with <div> containers for sections and specific elements for content (e.g., <h1>, <p>, <img>). Applied to create visually appealing designs, including backgrounds, colors, fonts, borders, shadows, and animations (@keyframes for hero sections and cards). Utilizes @media queries to ensure responsiveness across different devices (initial-scale meta tag in <head> for viewport adjustment).
 - What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- HTML Structure
+- CSS Styling
+- Responsive Design
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -117,4 +118,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| HTML Tutorial | HTML Tutorial of the basics | https://www.w3schools.com/html/ |
+| CSS Tutorial | CSS Tutorial of the basics | https://www.w3schools.com/css/ |
