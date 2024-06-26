@@ -1,84 +1,68 @@
-/* Reset default margin and padding */
-* {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background: url('../img/powder.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
 }
 
-/* Global styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-.hero {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
-    border-bottom: 2px solid #ddd;
-}
-
-.hero h1 {
-    font-size: 24px;
-    color: #333;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-.hero h3 {
-    font-size: 18px;
-    color: #555;
+h1, h4, p {
+    margin: 0;
     padding: 0 20px;
     text-align: center;
 }
 
-.hero p {
-    padding: 0 20px 20px;
-    color: #666;
+h1 {
+    font-size: 3em;
+    margin-top: 50px;
+    color: #ff4c4c;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.hero button, .hero a {
+h4 {
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 60%;
+    line-height: 1.6;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1.5em;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+img {
     display: block;
-    width: 120px;
-    margin: 0 auto;
-    padding: 10px 0;
+    margin: 50px auto 20px;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+div {
+    margin: 20px;
     text-align: center;
-    background-color: #4CAF50;
-    color: white;
+}
+
+div a {
     text-decoration: none;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-bottom: 20px;
+    color: #ff4c4c;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
 }
 
-.hero button:hover, .hero a:hover {
-    background-color: #45a049;
-}
-
-@media (max-width: 768px) {
-    .hero {
-        padding: 15px;
-    }
-
-    .hero h1 {
-        font-size: 20px;
-    }
-
-    .hero h3 {
-        font-size: 16px;
-    }
-
-    .hero p {
-        padding: 0 15px 15px;
-    }
+div a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
