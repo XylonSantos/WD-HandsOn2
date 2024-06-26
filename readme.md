@@ -59,19 +59,21 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-- The project consists of a multi-page HTML project with a focus on showcasing different hero sections and card styles using HTML and CSS.
+- This project is a web-based showcase featuring five different hero styles, five static card styles, and five animated card styles. The project aims to provide a visually appealing and interactive experience for users, demonstrating various web design techniques and CSS animations. It is divided into two main sections: the Hero Gallery and the Card Gallery, each accessible via navigation links on the landing page.
 
 Guiding Question:
-- What is the project -  The project includes an index.html file serving as the landing page and separate directories. It aims to demonstrate various styles of hero sections and cards using HTML and CSS. Contains a title, project description, and navigation links to Hero Gallery and Card Gallery. Showcases five hero sections with different designs. Features ten cards each with unique content and styling.
-- Whats the purpose - Demonstrates different design styles and techniques achievable with HTML and CSS.
-- What are key components - It includes a landing page with navigation to "Hero Gallery" and "Card Gallery" sections. Key components include styled <div> elements for hero sections and cards (card1 to card10), each uniquely designed with CSS for layout, typography, colors, and responsiveness. Navigation is enhanced with styled buttons, and interactions are enriched with CSS animations (@keyframes). 
+- What is the project - The project is a web-based interface showcasing different hero and card styles using HTML, CSS, and animation effects. It includes both static and animated elements to demonstrate a range of design possibilities.
+
+- Whats the purpose - The purpose of the project is to display a variety of hero and card styles to inspire and inform users about different design approaches and CSS animation techniques. 
+
+- What are key components - The key components are the Hero Gallery and the Card Gallery. The Hero Gallery displays different hero section designs, while the Card Gallery showcases various static and animated card designs.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- HTML Structure
-- CSS Styling
-- Responsive Design
+- Landing Page
+- Hero Gallery
+- Card Gallery
 
 ### Technology
 <!-- TODO: List of Technology Used -->
