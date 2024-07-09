@@ -1,45 +1,71 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    background-color: #e8e8e8;
-    background-image: url('../img/piltover.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    box-sizing: border-box;
 }
 
-h1 {
-    font-size: 70px;
-    margin-bottom: 20px;
-    color: #0077c2
-    animation: entrance 0.5s ease-in-out;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+    margin: 0;
 }
 
-img {
-    width: 400px;
-    display: block;
+.container {
+    max-width: 960px;
     margin: 0 auto;
-    animation: grow 1s ease-in-out; 
-}
-
-p {
-    color: #ffffff;
-    text-align: center;
     padding: 20px;
 }
 
-@keyframes entrance {
-    from { opacity: 0; transform: translateY(50px); }
-    to { opacity: 1; transform: translateY(0); }
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }
 
-@keyframes grow {
-    from { transform: scale(0.8); }
-    to { transform: scale(1); }
-  }
-
-  img:hover {
-    filter: saturate(150%) brightness(1.2);
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
+.hero {
+    background-image: url('../img/vi.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 120px 0;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-description {
+    font-size: 1.8rem;
+    line-height: 2.2;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+    .hero-description {
+        font-size: 1.5rem;
+        line-height: 1.8;
+    }
+}
